@@ -18,6 +18,11 @@ Generally, user stories follow a standard pattern as such:
 **Why do you want them to see their purchase history?** So that the user can potentially re-order a product they've purchased in the past with a single click.
 
 **Resulting User Stories**
+- As a **shopper for the online store**, I need **to be able to create an account** so that **I can log back in to view and interact with my account data in the future**.
+  - Acceptance Criteria:
+    - Email address
+    - Password
+    - Orders Placed
 - As a **shopper for the online store**, I need **to be able to store my shipping address and payment information** so that **I don't need to enter it every time I purchase something**.
   - Acceptance Criteria:
     - One address per shopper
