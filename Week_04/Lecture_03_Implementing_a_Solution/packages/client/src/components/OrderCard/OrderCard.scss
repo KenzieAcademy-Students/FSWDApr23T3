@@ -1,0 +1,37 @@
+.order-card {
+  // border: 2px solid black;
+}
+
+.order-card .card:not(:first-child) {
+  border-left: none;
+}
+
+.order-card .card:not(:last-child) {
+  border-right: none;
+}
+
+.item-thumbnails {
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+.order-item-thumbnail {
+  display: block;
+  max-width: 75px;
+  max-height: 75px;
+  object-fit: cover;
+}
+
+.item-thumbnails.spacer {
+  padding-bottom: 19.2px;
+}
+
+.toggle-display-thumbnails {
+  color: gray;
+  cursor: pointer;
+}
+
+.toggle-display-thumbnails:hover {
+  text-decoration: underline;
+}
